@@ -40,7 +40,7 @@ export results to `.pcap` and CSV for further analysis.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/pysniff.git
+git clone https://github.com/ALVINRTX-101/pysniff.git
 cd pysniff
 pip install -r requirements.txt --break-system-packages
 ```
