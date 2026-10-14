@@ -168,8 +168,8 @@ def matches_target_filter(src_ip, dst_ip):
     return args.target_ip in (src_ip, dst_ip)
 
 
-def handle_packet(pkt):
-    global csv_writer
+def global csv_writer():
+    csv_writer.writerow(data)
 
     if not pkt.haslayer(IP):
         return
